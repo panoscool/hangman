@@ -64,6 +64,7 @@ h2 {
 
 .word {
   display: flex;
+  margin-bottom: 20px;
 }
 
 .letter {
@@ -135,4 +136,12 @@ h2 {
 
 .notification-container.show {
   transform: translateY(-150px);
+}
+
+.screen-letters span {
+  margin: 4px;
+  padding: 2px;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
 }
